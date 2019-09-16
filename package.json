@@ -28,6 +28,10 @@
     "start": "react-scripts start next",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "precommit": "pretty-quick --staged"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
   }
 }
