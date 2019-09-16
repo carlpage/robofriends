@@ -8,6 +8,10 @@ import Header from './Header';
 
 export class MainPage extends Component {
   componentDidMount() {
+    if(process.env.NODE_ENV === 'production') {
+      
+    }
+    console.log(process.env.REACT_APP_SAY_HI);
     this.props.onRequestRobots();
   }
 
